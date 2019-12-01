@@ -1,4 +1,5 @@
-# fcvalid: An R Package for Validation of Results from Fuzzy and Probabilistic Clustering Algorithms
+# fcvalid
+## *An R Package for Validation of Results from Fuzzy and Probabilistic Clustering Algorithms*
 
 `fcvalid` is an R package that contains the popular internal validity indexes which are used to assess the clustering results from any fuzzy and possibilistic clustering algorithm with special reference to `ppclust` package in CRAN.
 
