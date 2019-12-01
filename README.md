@@ -51,7 +51,7 @@ browseVignettes("fcvalid")
 ## Cite the package
 To cite the package please use one of the following items fits to your references list:
 
-*Cebeci, Z., Kavlak, A.T., & Yildiz, F. (2017). Validation of fuzzy and possibilistic clustering results. In Proc. of *2017 IEEE International Artificial Intelligence and Data Processing Symposium (IDAP)* (pp. 1-7).*
+Cebeci, Z., Kavlak, A.T., & Yildiz, F. (2017). "Validation of fuzzy and possibilistic clustering results", in Proc. of *2017 IEEE International Artificial Intelligence and Data Processing Symposium (IDAP)*. pp. 1-7.  DOI: 10.1109/IDAP.2017.8090183*
 
 or in BibTeX format:
 
@@ -61,6 +61,7 @@ or in BibTeX format:
   booktitle={2017 International Artificial Intelligence and Data Processing Symposium (IDAP)},
   pages={1--7}
   year={2017},
-  organization={IEEE}
+  organization={IEEE},
+  url={https://10.1109/IDAP.2017.8090183},
  }`
  
