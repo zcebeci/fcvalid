@@ -1,5 +1,5 @@
 # fcvalid
-Internal validity indexes for fuzzy and possibilistic clustering
+#H1 Internal validity indexes for fuzzy and possibilistic clustering
 
 To install the package:
 
