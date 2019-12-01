@@ -2,9 +2,11 @@
 # Internal Vlidity Indexes for Fuzzy and Possibilistic Clustering
 
 ## Install the package 'fcvalid'
-
+```{r}
 library(devtools)
 install_github("zcebeci/fcvalid")
+```
+
 
 ## Load the package into R working space
 library(fcvalid)
