@@ -1,9 +1,11 @@
 year <- sub("-.*", "", meta$Date) 
 note <- sprintf("R package version %s", meta$Version)
-textVersion = paste0("Cebeci, Z. (", year,"). fcvalid: Internal Validity Indexes for Fuzzy and Possibilistic Clustering. ", note, ", URL: https://github.com/zcebeci/fcvalid/")
-bibentry(textVersion, bibtype = "Manual",
- title = "{fcvalid}: Internal Validity Indexes for Fuzzy and Possibilistic Clustering",
- author = c(person("Zeynel", "Cebeci")),
- year = year,
- note = note, 
- url = "https://github.com/zcebeci/fcvalid/")
+textVersion = paste0("Cebeci, Z. (", 2017,"). fcvalid: Internal Validity Indexes for Fuzzy and Possibilistic Clustering. ", note, ", URL: https://github.com/zcebeci/fcvalid/")
+bibentry(textVersion, bibtype = "inproceedings",
+ title = "Validation of fuzzy and possibilistic clustering results",
+ author = c(person("Zeynel", "Cebeci"), person("Alper Tuna","Kavlak"), person("Figen", "Yildiz")),
+ booktitle={2017 IEEE, International Artificial Intelligence and Data Processing Symposium (IDAP)},
+ year = 2017,
+ pages = {1--7}, 
+ organization={IEEE}
+ )
