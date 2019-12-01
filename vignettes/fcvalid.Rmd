@@ -24,9 +24,9 @@ text-align: justify}
 In order to validate the results of fuzzy and possibilistic cluster analysis, this vignette is designed to demonstrate the use of some functions in the package '`fcvalid`'. You can download the recent version of the package from CRAN with the following command:
 
 ```{r, eval=FALSE, message=FALSE, warning=FALSE}
-if(!require(prettydoc) {install.packages('prettydoc')}
+if(!require(prettydoc)) {install.packages('prettydoc')}
 
-if(!require(devtools) {install.packages('devtools'); library(devtools)}
+if(!require(devtools)) {install.packages('devtools'); library(devtools)}
  devtools::install_github("zcebeci/fcvalid",build_vignettes = TRUE)
 ```
 
