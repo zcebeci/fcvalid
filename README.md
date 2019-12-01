@@ -1,14 +1,14 @@
 # fcvalid
-#H1 Internal validity indexes for fuzzy and possibilistic clustering
+# Internal Vlidity Indexes for Fuzzy and Possibilistic Clustering
 
-To install the package:
+## Install the package 'fcvalid'
 
 library(devtools)
 install_github("zcebeci/fcvalid")
 
-To load into R working space:
+## Load the package into R working space
 library(fcvalid)
 
-To get help about the use of package fcvalid run help in R as follows:
+## To get help about the use of package fcvalid run help in R as follows:
 help(package="fcvalid")
 
