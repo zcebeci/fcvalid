@@ -182,6 +182,6 @@ Bezdek, J.C. (1974). Cluster validity with fuzzy sets. *J Cybernetics*, 3(3):58-
 
 Pal, N. R., Pal, K. & Bezdek, J. C. (2005). A possibilistic fuzzy c-means clustering algorithm. *IEEE Trans. Fuzzy Systems*, 13 (4): 517-530. https://doi.org/10.1109/TFUZZ.2004.840099
 
-Cebeci, Z., Kavlak, A. T., & Yildiz, F. (2017, September). Validation of fuzzy and possibilistic clustering results. In 2017 International Artificial Intelligence and Data Processing Symposium (IDAP) (pp. 1-7). IEEE.
+Cebeci, Z., Kavlak, A. T., & Yildiz, F. (2017). Validation of fuzzy and possibilistic clustering results. In IEEE 2017,  International Artificial Intelligence and Data Processing Symposium (IDAP). pp. 1-7.
 
 Cebeci, Z., Yildiz, F., Kavlak, A.T., Cebeci, C. & Onder, H. (2017). ppclust: Probabilistic and Possibilistic Cluster Analysis. R package  version 0.1.0, URL https://CRAN.R-project.org/package=ppclust
