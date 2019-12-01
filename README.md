@@ -3,6 +3,7 @@
 
 `fcvalid` is an R package that contains the popular internal validity indexes which are used to assess the clustering results from any fuzzy and possibilistic clustering algorithm with special reference to `ppclust` package in CRAN.
 
+## Introduction
 In data mining and knowledge discovery, partitioning cluster analysis is an important unsupervised explatory task for finding the meaningful patterns in numeric data sets. In cluster analysis, the quality of clustering or the performances of clustering algorithms are mostly evaluated by using several internal validity indexes (Halkidi et al, 2001, 2002a, 2002b; Zhou et al, 2014; Li et al, 2016). This package contains a compilation of the widely used internal indexes which have been proposed to validate the results of fuzzy clustering analyses. In addition to fuzzy index values, the options to compute the generalized and extended versions of the fuzzy internal indexes are also included in the package.
 
 In fuzzy clustering analyses, the performances of clustering algorithms are mostly compared using several internal fuzzy validity indexes. The majority of the well-known fuzzy indices have originally been proposed for working with membership degrees produced by the basic Fuzzy C-Means Clustering (FCM) algorithm and its modifications (Rezaee et al, 1998; Halkidi et al, 2001, 2002a, 2002b). Therefore, the fuzzy internal indexes cannot be directly applied to validate the results from possibilistic algorithms which produce typicality matrices instead of fuzzy membership matrices. Morevover, various variants of FCM and PCM such as Possibilistic Fuzzy C-means (PFCM), Fuzzy Possibilistic C-means (FPCM) and Unsupervised Possibilistic Fuzzy Clustering (UPFC) simultaneously result with probabilistic and possibilistic membership degrees. Thus, some kind of validity indices are needed for working with both of these results. For this purpose, the extended and generalized validity indices have been proposed in recent years. In this package, the implementations of these indices were included for validating the clustering results from FCM, PCM, FPCM, PFCM, UPFC and the other fuzzy/possibilistic clustering algorithms.
@@ -47,4 +48,18 @@ For reaching the detailed vignette abou the use of package with examples, run th
 browseVignettes("fcvalid")
 ```
 
- 
+## Cite the package
+To cite the package please use one of the following items fits to your references list:
+
+`Cebeci, Z., Kavlak, A.T., & Yildiz, F. (2017). Validation of fuzzy and possibilistic clustering results. In Proc. of *2017 IEEE International Artificial Intelligence and Data Processing Symposium (IDAP)* (pp. 1-7).`
+
+or in BibTeX format:
+
+`@inproceedings{cebeci2017validation,
+  title={Validation of fuzzy and possibilistic clustering results},
+  author={Cebeci, Zeynel and Kavlak, Alper Tuna and Yildiz, Figen},
+  booktitle={2017 International Artificial Intelligence and Data Processing Symposium (IDAP)},
+  pages={1--7},
+  year={2017},
+  organization={IEEE}
+}`
