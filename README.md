@@ -1,12 +1,12 @@
-# fcvalid: An R Package for Validation of Fuzzy and Probabilistic Clustering 
+# fcvalid: An R Package for Validation of Results from Fuzzy and Probabilistic Clustering ALgorithms
 
-'fcvalid' is an R package that contains the current popular internal validity indexes in order to assess the clustering results from any fuzzy and possibilistic clustering algorithm with special reference to 'ppclust' package in CRAN.
+`fcvalid` is an R package that contains the popular internal validity indexes which are used to assess the clustering results from any fuzzy and possibilistic clustering algorithm with special reference to 'ppclust' package in CRAN.
 
 ## Install the package 'fcvalid'
-In order to install the package `'fcvalid'` from the GitHub repository you should first install the `'devtools'` package from CRAN into your local system. Then you can install the package 'fcvalid' using `install_github` of `'devtools'` package as shown with the R code chunks below:
+In order to install the package `fcvalid` from the GitHub repository you should first install the `devtools` package from CRAN into your local system. Then you can install the package  `fcvalid` using `install_github` of `devtools` package as shown with the R code chunks below:
 
 ```{r}
-library(devtools)
+if(!require(devtools) {install.packages('devtools'); library(devtools)}
 install_github("zcebeci/fcvalid")
 ```
 
