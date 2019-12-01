@@ -6,7 +6,7 @@ clustering results, in Proc. of 2017 IEEE, International Artificial Intelligence
 bibentry(textVersion, bibtype = "inproceedings",
  title = "Validation of fuzzy and possibilistic clustering results",
  author = c(person("Zeynel", "Cebeci"), person("Alper Tuna","Kavlak"), person("Figen", "Yildiz")),
- booktitle={2017 IEEE, International Artificial Intelligence and Data Processing Symposium (IDAP)},
+ booktitle="2017 IEEE, International Artificial Intelligence and Data Processing Symposium (IDAP)",
  year = 2017,
  pages = {1--7}, 
  organization={IEEE}
