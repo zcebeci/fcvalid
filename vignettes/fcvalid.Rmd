@@ -20,7 +20,7 @@ text-align: justify}
 
 To cite this vignette and package 'fcvalid', please use one of the following items that fits to your references list:
 
-Cebeci, Z., Kavlak, A.T., & Yildiz, F. (2017). Validation of fuzzy and possibilistic clustering results. In Proc. of *2017 IEEE International Artificial Intelligence and Data Processing Symposium (IDAP)* pp. 1-7.  doi: 10.1109/IDAP.2017.8090183.
+Cebeci, Z., Kavlak, A.T., & Yildiz, F. (2017). "Validation of fuzzy and possibilistic clustering results", in Proc. of *2017 IEEE International Artificial Intelligence and Data Processing Symposium (IDAP)* pp. 1-7.  doi: [10.1109/IDAP.2017.8090183](https://doi.org/10.1109/IDAP.2017.8090183).
 
 or in BibTeX format:
 ```
