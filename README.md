@@ -34,3 +34,10 @@ To get help about the use of package fcvalid run help in R as follows:
 ```{r}
 help(package="fcvalid")
 ```
+For reading a detailed use of the package run the following command and then click HTML link in the accessed page. Read the vignette and apply the examples.
+
+```{r}
+browseVignettes("fcvalid")
+```
+
+ 
