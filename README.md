@@ -13,13 +13,13 @@ The extended index values is based on the combined use of the fuzzy membership v
 In order to install the package `fcvalid` from the GitHub repository you should first install the `devtools` package from CRAN into your local system. Then you can install the package  `fcvalid` using `install_github` of `devtools` package as shown with the R code chunks below:
 
 ```{r}
-if(!require(devtools) {install.packages('devtools'); library(devtools)}
+if(!require(devtools)) {install.packages('devtools'); library(devtools)}
 install_github("zcebeci/fcvalid")
 ```
 If you would like to have a compiled version of the vignettes of the package try to install the package fcvalid using install_github with build_vignettes set to TRUE as shown below:
 
 ```{r}
-if(!require(devtools) {install.packages('devtools'); library(devtools)}
+if(!require(devtools)) {install.packages('devtools'); library(devtools)}
  devtools::install_github("zcebeci/fcvalid",build_vignettes = TRUE)
 ```
 If you have not already installed rmarkdown and prettydoc in your local system before running the install command above first install these packages as following:
