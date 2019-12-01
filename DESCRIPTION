@@ -1,0 +1,15 @@
+Package: fcvalid
+Type: Package
+Title: Internal Validity Indexes for Fuzzy and Possibilistic Clustering
+Version: 0.1.1
+Date: 2019-12-01
+Authors@R: c(person("Zeynel", "Cebeci", email = "zcebeci@cukurova.edu.tr", role = c("aut", "cre"))) 
+Author: Zeynel Cebeci [aut, cre]
+Maintainer: Zeynel Cebeci <zcebeci@cukurova.edu.tr>
+Description: In data mining and knowledge discovery, partitioning cluster analysis is an important unsupervised explatory task for finding the meaningful patterns in data sets. The quality of clustering results or the performances of clustering algorithms are mostly evaluated by using the internal validity indexes. This package contains a compilation of the widely used internal indexes which have been proposed to validate the results of fuzzy clustering (Halkidi et al, 2001,2002) <doi:10.1023/A:1012801612483> <doi:10.1145/565117.565124>. In addition to compute fuzzy index values, the options to compute generalized (Yang & Wu, 2006) <doi:10.1016/j.patcog.2005.07.005> and extended (Cebeci et al, 2017) <doi:10.1109/IDAP.2017.8090183> versions of the fuzzy internal indexes were also included in the package. 
+Depends: R (>= 3.0.0)
+License: GPL (>= 2)
+LazyData: true
+Imports: ppclust
+Suggests: knitr, rmarkdown
+VignetteBuilder: knitr
