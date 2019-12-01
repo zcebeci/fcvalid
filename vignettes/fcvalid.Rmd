@@ -24,7 +24,10 @@ text-align: justify}
 In order to validate the results of fuzzy and possibilistic cluster analysis, this vignette is designed to demonstrate the use of some functions in the package '`fcvalid`'. You can download the recent version of the package from CRAN with the following command:
 
 ```{r, eval=FALSE, message=FALSE, warning=FALSE}
-install.packages("fcvalid")
+if(!require(prettydoc) {install.packages('prettydoc')}
+
+if(!require(devtools) {install.packages('devtools'); library(devtools)}
+ devtools::install_github("zcebeci/fcvalid",build_vignettes = TRUE)
 ```
 
 If you have already installed '`fcvalid`', you can load it into R working environment by using the following command:
@@ -172,12 +175,13 @@ for(i in 1:length(indnames)){
 ```
 
 
-#References
+# References
 Anderson, E. (1935). The irises of the GASPE peninsula, in *Bull. Amer. Iris Soc.*, 59: 2-5.
 
 Bezdek, J.C. (1974). Cluster validity with fuzzy sets. *J Cybernetics*, 3(3):58-72. https://doi.org/10.1080/01969727308546047
 
 Pal, N. R., Pal, K. & Bezdek, J. C. (2005). A possibilistic fuzzy c-means clustering algorithm. *IEEE Trans. Fuzzy Systems*, 13 (4): 517-530. https://doi.org/10.1109/TFUZZ.2004.840099
 
-Cebeci, Z., Yildiz, F., Kavlak, A.T., Cebeci, C. & Onder, H. (2017). ppclust: Probabilistic and Possibilistic Cluster Analysis. R package
-  version 0.1.0, URL https://CRAN.R-project.org/package=ppclust
+Cebeci, Z., Kavlak, A. T., & Yildiz, F. (2017, September). Validation of fuzzy and possibilistic clustering results. In 2017 International Artificial Intelligence and Data Processing Symposium (IDAP) (pp. 1-7). IEEE.
+
+Cebeci, Z., Yildiz, F., Kavlak, A.T., Cebeci, C. & Onder, H. (2017). ppclust: Probabilistic and Possibilistic Cluster Analysis. R package  version 0.1.0, URL https://CRAN.R-project.org/package=ppclust
