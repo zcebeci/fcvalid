@@ -30,14 +30,14 @@ install.packages('prettydoc')
 ```
 
 ## Load the package into R working space
-After you installed the package `fcvalid` run the command below in the R working space.
+After you installed the package `fcvalid`, run the following command in order to load it to R working space.
 
 ```{r}
 library(fcvalid)
 ```
 
 ## Help for the package
-To get help about the use of package `fcvalid` run help in R as follows:
+To get help about the use of functions included in the package `fcvalid`, run `help` in R as seen in the following code chunk.
 
 ```{r}
 help(package="fcvalid")
