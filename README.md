@@ -1,7 +1,7 @@
 # fcvalid
 ## *An R Package for Validation of Results from Fuzzy and Probabilistic Clustering Algorithms*
 
-`fcvalid` is an R package that contains the popular internal validity indexes which are used to assess the clustering results from any fuzzy and possibilistic clustering algorithm with special reference to `ppclust` package in CRAN.
+`fcvalid` is an R package that contains the popular internal validity indexes which are used to assess the clustering results from any fuzzy and possibilistic clustering algorithm with special reference to [`ppclust`](https://cran.r-project.org/web/packages/ppclust/index.html) package in CRAN.
 
 ## Introduction
 In data mining and knowledge discovery, partitioning cluster analysis is an important unsupervised explatory task for finding the meaningful patterns in numeric data sets. In cluster analysis, the quality of clustering or the performances of clustering algorithms are mostly evaluated by using several internal validity indexes (Halkidi et al, 2001, 2002a, 2002b; Zhou et al, 2014; Li et al, 2016). This package contains a compilation of the widely used internal indexes which have been proposed to validate the results of fuzzy clustering analyses. In addition to fuzzy index values, the options to compute the generalized and extended versions of the fuzzy internal indexes are also included in the package.
@@ -17,13 +17,13 @@ In order to install the package `fcvalid` from the GitHub repository you should 
 if(!require(devtools)) {install.packages('devtools'); library(devtools)}
 install_github("zcebeci/fcvalid")
 ```
-If you would like to have a compiled version of the vignettes of the package try to install the package fcvalid using install_github with build_vignettes set to TRUE as shown below:
+If you would like to have a compiled version of the vignettes of the package try to install the package `fcvalid` using `install_github` with `build_vignettes` argument set to TRUE as shown below:
 
 ```{r}
 if(!require(devtools)) {install.packages('devtools'); library(devtools)}
- devtools::install_github("zcebeci/fcvalid",build_vignettes = TRUE)
+ devtools::install_github("zcebeci/fcvalid", build_vignettes=TRUE)
 ```
-If you have not already installed rmarkdown and prettydoc in your local system before running the install command above first install these packages as following:
+If you have not already installed `rmarkdown` and `prettydoc` in your local system, before running the above install commands firstly install these packages as following:
 
  ```{r}
 install.packages('prettydoc')
@@ -42,7 +42,7 @@ To get help about the use of package `fcvalid` run help in R as follows:
 ```{r}
 help(package="fcvalid")
 ```
-For reaching the detailed vignette abou the use of package with examples, run the following command and then click HTML link on the accessed page in your web browser. Read the vignette and apply the examples.
+For reaching the detailed vignette about the usage of package with examples, run the following command and then click *HTML* link on the accessed page in your web browser. Read the vignette and apply the examples.
 
 ```{r}
 browseVignettes("fcvalid")
