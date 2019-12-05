@@ -38,15 +38,23 @@ or in BibTeX format:
 # Data set and Packages
 
 ## Install and load the package fcvalid
-In order to validate the results of fuzzy and possibilistic cluster analysis, this vignette is designed to demonstrate the use of some functions in the package '`fcvalid`'. You can download the recent version of the package from CRAN with the following command:
+In order to install the package `fcvalid` from the GitHub repository you should first install the `devtools` package from CRAN into your local system. Then you can install the package  `fcvalid` using `install_github` of `devtools` package as shown with the R code chunks below:
 
-```{r, eval=FALSE, message=FALSE, warning=FALSE}
-if(!require(prettydoc)) {install.packages('prettydoc')}
-
+```{r eval=FALSE}
 if(!require(devtools)) {install.packages('devtools'); library(devtools)}
- devtools::install_github("zcebeci/fcvalid",build_vignettes = TRUE)
+install_github("zcebeci/fcvalid")
 ```
+If you would like to have a compiled version of the vignettes of the package try to install the package `fcvalid` using `install_github` with `build_vignettes` argument set to TRUE as shown below:
 
+```{r eval=FALSE}
+if(!require(devtools)) {install.packages('devtools'); library(devtools)}
+ devtools::install_github("zcebeci/fcvalid", build_vignettes=TRUE)
+```
+If you have not already installed `rmarkdown` and `prettydoc` in your local system, before running the above install commands firstly install these packages as following:
+
+ ```{r eval=FALSE}
+install.packages('prettydoc')
+```
 If you have already installed '`fcvalid`', you can load it into R working environment by using the following command:
 
 ```{r, echo=TRUE, message=FALSE, warning=FALSE}
