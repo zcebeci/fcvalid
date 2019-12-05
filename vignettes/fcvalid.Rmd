@@ -91,8 +91,8 @@ summary(cres)
 plotcluster(cres, trans=TRUE)
 ```
 
-## Clustering Validity
-In order to validate the clustering result obtained in the previous subsection by using FCM, any of the cluster validity index of the package '`fcvalid`. The following two commands demonstrate the use of the Partition Coeffient and Xie-Beni indexes.
+## Validition of Clustering
+In order to validate the clustering result obtained in the previous subsection by using FCM, one of the cluster validity indexes of the package '`fcvalid`. The following two commands demonstrate the use of the Partition Coeffient and Xie-Beni indexes.
 
 ```{r, echo=TRUE, message=FALSE, warning=FALSE}
 pc(cres)
@@ -169,7 +169,7 @@ colnames(indvals) <- indnames
 rownames(indvals) <- paste0("k=",k1:k2) 
 print(indvals)
 ```
-The computed index values can be visually inspected by using barplots, plots or other kinds of graphical tools.
+The computed index values are visually inspected by using barplots, plots or other kind of graphical tools.
 
 ```{r fig.width=9, fig.height=11}
 par(mfrow=c(5,3))
@@ -192,6 +192,7 @@ for(i in 1:length(indnames)){
 ```
 
 # References
+
 Anderson, E. (1935). The irises of the GASPE peninsula, in *Bull. Amer. Iris Soc.*, 59: 2-5.
 
 Bezdek, J.C. (1974). Cluster validity with fuzzy sets. *J Cybernetics*, 3(3):58-72. https://doi.org/10.1080/01969727308546047
