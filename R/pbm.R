@@ -87,7 +87,8 @@ pbm <- function(x, u, v, m, t=NULL, eta, tidx="f"){
   k <- ncol(U)
   E1 <- Ek <- 0
   for(i in 1:n)
-    E1 <- E1 + U[i,1] * sum((X[i,]-V[,1])^2)
+    # E1 <- E1 + U[i,1] * sum((X[i,]-V[,1])^2)
+      E1 <- E1 + U[i,1] * sum((X[i,]-V[1,])^2)
   for(j in 1:k)
     for(i in 1:n)
       if(tidx == "e")
