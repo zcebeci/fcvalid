@@ -1,4 +1,4 @@
-pbmf <- function(x, u, v, m, t=NULL, eta, tidx="f"){
+pbm <- function(x, u, v, m, t=NULL, eta, tidx="f"){
   if(missing(x))
     stop("Missing input argument. A ppclust object or a numeric data set is required")
   tidx <- match.arg(tidx, c("e","f","g"))
