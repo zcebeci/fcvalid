@@ -1,4 +1,4 @@
-fs <- function(x, u, v, m, t=NULL, eta, tidx ="f"){
+pbmf <- function(x, u, v, m, t=NULL, eta, tidx="f"){
   if(missing(x))
     stop("Missing input argument. A ppclust object or a numeric data set is required")
   tidx <- match.arg(tidx, c("e","f","g"))
@@ -16,6 +16,7 @@ fs <- function(x, u, v, m, t=NULL, eta, tidx ="f"){
       stop("Argument 'x' does not have the fuzzy membership or typicality matrix")
     }
     V <- as.matrix(x$v)
+    D <- as.matrix(x$d)
     if(tidx == "e" || tidx == "g"){
       if(!is.null(x$t)){
         T <- x$t
@@ -24,10 +25,8 @@ fs <- function(x, u, v, m, t=NULL, eta, tidx ="f"){
       else
         stop("Argument 'x' does not have the typicality matrix")
     }
-    dcheck <- FALSE
   }
   else{
-    dcheck <- TRUE
     if(!missing(x))
       if(is.matrix(x) || is.data.frame(x) || is.vector(x))
         X <- as.matrix(x)
@@ -86,21 +85,29 @@ fs <- function(x, u, v, m, t=NULL, eta, tidx ="f"){
   }
   n <- nrow(U)
   k <- ncol(U)
-  vmean <- mean(V) 
-  idx <- as.double(0)
-  for(j in 1:k){
-    for(i in 1:n){
+  E1 <- Ek <- 0
+  for(i in 1:n)
+    E1 <- E1 + U[i,1] * sum((X[i,]-V[,1])^2)
+  for(j in 1:k)
+    for(i in 1:n)
       if(tidx == "e")
-        idx <- idx + (U[i,j]^m + T[i,j]^eta) * (sum((X[i,]-V[j,])^2) - sum((V[j,]-vmean)^2))  
+        Ek <- Ek + (U[i,j] + T[i,j]) * sum((X[i,]-V[j,])^2)
       else
-        idx <- idx + U[i,j]^m * (sum((X[i,]-V[j,])^2) - sum((V[j,]-vmean)^2))
+        Ek <- Ek + U[i,j] * sum((X[i,]-V[j,])^2)
+  Dc <- -Inf
+  for(j in 1:(k-1)){
+    for(l in (j+1):k){
+      difv <- sum((V[j,]-V[l,])^2)
+      if(Dc < difv)
+        Dc <- difv
     }
-  }  
+  }
+  idx <- (1/k * (E1/Ek) * Dc)
   if(tidx == "f")
-    names(idx) <- "fs"
+    names(idx) <- "pbm"
   else if(tidx == "e")
-    names(idx) <- "fs.e"
+    names(idx) <- "pbm.e"
   else if(tidx == "g")
-    names(idx) <- "fs.g"
+    names(idx) <- "pbm.g"
   return(idx)
 }
