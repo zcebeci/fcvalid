@@ -51,18 +51,21 @@ browseVignettes("fcvalid")
 ## Cite the package
 To cite the package please use one of the following items fits to your references list:
 
-Cebeci, Z., Kavlak, A.T., & Yildiz, F. (2017). "Validation of fuzzy and possibilistic clustering results", in Proc. of *2017 IEEE International Artificial Intelligence and Data Processing Symposium (IDAP)*. pp. 1-7.  DOI: [10.1109/IDAP.2017.8090183](https://doi.org/10.1109/IDAP.2017.8090183).
+Cebeci, Z. (2020). fcvalid: An R Package for Internal Validation of Probabilistic and Possibilistic Clustering. Sakarya University Journal of Computer and Information Sciences, 3 (1), 11-27. DOI: 10.35377/saucis.03.01.664560 
 
 or in BibTeX format:
 ```
-@inproceedings{cebeci2017validation,
-  title={Validation of fuzzy and possibilistic clustering results},
-  author={Cebeci, Zeynel and Kavlak, Alper Tuna and Yildiz, Figen},
-  booktitle={2017 International Artificial Intelligence and Data Processing Symposium (IDAP)},
-  pages={1--7}
-  year={2017},
-  organization={IEEE},
-  url={https://10.1109/IDAP.2017.8090183},
- }
+@research article { saucis664560, 
+journal = {Sakarya University Journal of Computer and Information Sciences}, 
+eissn = {2636-8129}, 
+publisher = {Sakarya University}, 
+year = {2020}, 
+volume = {3}, 
+pages = {11 - 27}, 
+title = {fcvalid: An R Package for Internal Validation of Probabilistic and Possibilistic Clustering}, 
+author = {Cebeci, Zeynel},
+doi = {10.35377/saucis.03.01.664560}, 
+key = {cite}, 
+}
  ```
  
