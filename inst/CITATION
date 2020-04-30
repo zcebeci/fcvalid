@@ -1,14 +1,13 @@
-year <- sub("-.*", "", meta$Date) 
-note <- sprintf("R package version %s", meta$Version)
-textVersion = paste0("Cebeci, Z., Kavlak, A.T. & Yildiz, F. (2017). Validation of fuzzy and possibilistic 
-clustering results, in Proc. of 2017 IEEE, International Artificial Intelligence and Data Processing Symposium (IDAP). pp: 1-7.
- DOI: 10.1109/IDAP.2017.8090183.", note, ", URL: https://github.com/zcebeci/fcvalid/")
-bibentry(textVersion, bibtype = "Proceedings",
- title = "Validation of fuzzy and possibilistic clustering results",
- author = c(person("Zeynel", "Cebeci"), person("Alper Tuna","Kavlak"), person("Figen", "Yildiz")),
- booktitle="2017 IEEE, International Artificial Intelligence and Data Processing Symposium (IDAP)",
- year = "2017",
- pages = "1-7", 
- publisher="IEEE",
- url="https://10.1109/IDAP.2017.8090183"
+textVersion = paste0("Cebeci, Z.(2020). fcvalid: An R Package for Internal Validation of Probabilistic and Possibilistic Clustering. 
+Sakarya University Journal of Computer and Information Sciences, 3(1), 11-27. doi: 10.35377/saucis.03.01.664560")
+bibentry(textVersion, bibtype = "article",
+ title = "fcvalid: An R Package for Internal Validation of Probabilistic and Possibilistic Clustering",
+ author = c(person("Zeynel", "Cebeci")),
+ journal="Sakarya University Journal of Computer and Information Sciences",
+ year = "2020",
+ volume=3,
+ number=1,
+ pages = "11-27", 
+ publisher="Sakarya University",
+ doi="10.35377/saucis.03.01.664560"
  )
