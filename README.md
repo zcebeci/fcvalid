@@ -55,12 +55,13 @@ Cebeci, Z. (2020). fcvalid: An R Package for Internal Validation of Probabilisti
 
 or in BibTeX format:
 ```
-@research article { saucis664560, 
+@article {saucis664560, 
 journal = {Sakarya University Journal of Computer and Information Sciences}, 
 eissn = {2636-8129}, 
 publisher = {Sakarya University}, 
 year = {2020}, 
 volume = {3}, 
+number = 1,
 pages = {11 - 27}, 
 title = {fcvalid: An R Package for Internal Validation of Probabilistic and Possibilistic Clustering}, 
 author = {Cebeci, Zeynel},
