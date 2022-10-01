@@ -51,7 +51,7 @@ browseVignettes("fcvalid")
 ## Cite the package
 To cite the package please use one of the following items fits to your references list:
 
-Cebeci, Z. (2020). fcvalid: An R Package for Internal Validation of Probabilistic and Possibilistic Clustering. Sakarya University Journal of Computer and Information Sciences, 3 (1), 11-27. DOI: 10.35377/saucis.03.01.664560 
+Cebeci, Z. (2020). fcvalid: An R Package for Internal Validation of Probabilistic and Possibilistic Clustering. *Sakarya University Journal of Computer and Information Sciences, 3* (1), 11-27. DOI: https://doi.org/10.35377/saucis.03.01.664560 
 
 or in BibTeX format:
 ```
